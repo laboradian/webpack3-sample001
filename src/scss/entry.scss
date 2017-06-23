@@ -1,0 +1,18 @@
+@import './bootstrap-variables';
+@import './bootstrap-custom';
+
+body {
+  padding: 0 2em;
+  background-color: #dad8d8;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+/* SASSによる入れ子 */
+div.panel {
+  div.panel-body {
+    background-color: #f5f0e5;
+  }
+}
