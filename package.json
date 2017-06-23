@@ -2,7 +2,7 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --require babel-register test/entry.js || exit 0"
   },
