@@ -9,11 +9,15 @@ $(() => {
   $('#btnSubmit').on('click', () => {
 
     // fooCalculator を使う
-    console.log("fooCalculator.multiplyBy2(2) =", fooCalculator.multiplyBy2(2));
+    $('#output1')
+      .text(`fooCalculator.multiplyBy2(2) = ${fooCalculator.multiplyBy2(2)}`)
+      .fadeIn('slow');
 
     // Personを使う
     const p = new Person('foo');
-    console.log("p.say() =", p.say());
+    $('#output2')
+      .text(`p.say() = ${p.say()}`)
+      .show();
 
   });
 

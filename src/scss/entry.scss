@@ -14,5 +14,11 @@ header {
 div.panel {
   div.panel-body {
     background-color: #f5f0e5;
+    p#output1,
+    p#output2{
+      margin-top: 10px;
+      padding:10px;
+      background-color: #ecacac;
+    }
   }
 }
