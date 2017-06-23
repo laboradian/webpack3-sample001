@@ -11,11 +11,11 @@ class Person {
   }
 
   /**
-   * メッセージを返す。
+   * 挨拶のメッセージを返す。
    * @returns {string} their message.
    */
-  say() {
-    return `Hello, ${this.name}`;
+  greet() {
+    return `私は、${this.name} と言います。`;
   }
 }
 export { Person };

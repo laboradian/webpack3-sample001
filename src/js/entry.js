@@ -10,15 +10,24 @@ $(() => {
 
     // fooCalculator を使う
     $('#output1')
-      .text(`fooCalculator.multiplyBy2(2) = ${fooCalculator.multiplyBy2(2)}`)
+      .text(`2 * {数} = ${fooCalculator.multiplyBy2(parseInt($('#inputNumber').val()))}`)
       .fadeIn('slow');
 
     // Personを使う
-    const p = new Person('foo');
+    const p = new Person($('#inputName').val());
     $('#output2')
-      .text(`p.say() = ${p.say()}`)
+      .text(`${p.greet()}`)
       .show();
 
   });
+
+  // ボタンのクリックイベントハンドラを登録する
+  $('#btnClear').on('click', () => {
+    $('#output1')
+      .text('').hide();
+    $('#output2')
+      .text('').hide();
+
+    });
 
 });

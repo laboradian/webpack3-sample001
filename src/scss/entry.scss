@@ -10,6 +10,9 @@ header {
   margin-bottom: 2em;
 }
 
+section.webpack-url {
+  margin: 10px 0;
+}
 /* SASSによる入れ子 */
 div.panel {
   div.panel-body {
@@ -19,6 +22,9 @@ div.panel {
       margin-top: 10px;
       padding:10px;
       background-color: #ecacac;
+    }
+    i {
+      margin-right: 20px;
     }
   }
 }
