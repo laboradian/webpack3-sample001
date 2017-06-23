@@ -5,7 +5,7 @@ import { Person } from './Person.js';
 
 $(() => {
 
-  // ボタンのクリックイベント
+  // ボタンのクリックイベントハンドラを登録する
   $('#btnSubmit').on('click', () => {
 
     // fooCalculator を使う
