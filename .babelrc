@@ -1,5 +1,5 @@
 {
-    "presets": [ "es2015" ],
+    "presets": [ "env" ],
     "compact": false,
     "plugins": [
         "babel-plugin-espower"
