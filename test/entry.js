@@ -17,14 +17,14 @@ describe('module fooCalculator', () => {
 });
 
 describe('class Person', () => {
-  describe('function say', () => {
-    it ('say that its name is "foo"', () => {
+  describe('function greet', () => {
+    it ('greet using its name', () => {
       let p = new Person('foo');
-      assert(p.say() === "Hello, foo");
+      assert(p.greet() === "私は、foo と言います。");
     });
-    it ('say that its name is empty', () => {
+    it ('greet using empty name', () => {
       let p = new Person('');
-      assert(p.say() === "Hello, ");
+      assert(p.greet() === "私は、 と言います。");
     });
   });
 });
