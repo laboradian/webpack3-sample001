@@ -19,7 +19,6 @@
     "eslint-loader": "^1.8.0",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
-    "intelli-espower-loader": "^1.0.1",
     "jquery": "^3.2.1",
     "mocha": "^3.4.2",
     "mocha-loader": "^1.1.1",
