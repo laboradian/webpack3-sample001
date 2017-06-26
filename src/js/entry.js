@@ -9,8 +9,9 @@ $(() => {
   $('#btnSubmit').on('click', () => {
 
     // fooCalculator を使う
+    const i = parseInt($('#inputNumber').val());
     $('#output1')
-      .text(`2 * {数} = ${fooCalculator.multiplyBy2(parseInt($('#inputNumber').val()))}`)
+      .text(`2 * ${i} = ${fooCalculator.multiplyBy2(i)}`)
       .fadeIn('slow');
 
     // Personを使う
