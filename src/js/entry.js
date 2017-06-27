@@ -1,6 +1,9 @@
-import $ from 'jquery'; // 任意
+/* global $ */
+//import $ from 'jquery'; // 任意
 import fooCalculator from './fooCalculator';
 import { Person } from './Person.js';
+import '../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js';
+
 //import '../scss/entry.scss';
 
 $(() => {

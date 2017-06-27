@@ -4,6 +4,9 @@
   "description": "",
   "main": "public/index.js",
   "scripts": {
+    "build": "webpack -p --progress --colors",
+    "watch": "webpack -d --watch --colors",
+    "server": "browser-sync start --server public --serverStatic public --files public/*",
     "test": "./node_modules/.bin/mocha --require babel-register test/entry.js || exit 0"
   },
   "author": "",

@@ -30,13 +30,7 @@ module.exports = [
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options: {
-            presets: ['env'],
-            compact: false,
-            plugins: [
-              'babel-plugin-espower'
-            ]
-          }
+          options: {}
         }
       }
     ]
@@ -44,8 +38,8 @@ module.exports = [
   plugins: [
     /* use jQuery as Global */
     new webpack.ProvidePlugin({
-        jQuery: "jquery",
-        $: "jquery"
+        $: "jquery",
+        jQuery: "jquery"
     })
   ],
   resolve: {
