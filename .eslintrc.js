@@ -2,6 +2,10 @@
 // - Configuring: http://eslint.org/docs/user-guide/configuring
 // - List of available rules: http://eslint.org/docs/rules/
 module.exports = {
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
     "extends": "eslint:recommended",
     "rules": {
         "strict": "warn",
@@ -13,8 +17,10 @@ module.exports = {
         "no-console": "off",
         "arrow-parens": ["warn", "always"],
         "arrow-body-style": "warn",
+        "arrow-parens": "warn",
         "arrow-spacing": "warn",
         "generator-star-spacing": "warn",
+        "no-confusing-arrow": "warn",
         "no-duplicate-imports": "warn",
         "no-useless-computed-key": "warn",
         "no-useless-constructor": "warn",
@@ -35,8 +41,5 @@ module.exports = {
         "browser": true,
         "node": true,
         "es6": true
-    },
-    "parserOptions": {
-        "sourceType": "module"
     }
 }

@@ -32,6 +32,10 @@ module.exports = [
           loader: 'babel-loader',
           options: {
             presets: ['env'],
+            compact: false,
+            plugins: [
+              'babel-plugin-espower'
+            ]
           }
         }
       }
