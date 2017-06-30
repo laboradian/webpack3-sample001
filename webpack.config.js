@@ -7,6 +7,7 @@ module.exports = [
 {
   /* ----------------
      JS用モジュール
+     （HTMLファイルのコピーもこの中で行っている）
     ----------------- */
   entry: {
     main: "./src/js/entry.js"
