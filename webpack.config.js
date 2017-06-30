@@ -12,7 +12,7 @@ module.exports = [
     main: "./src/js/entry.js"
   },
   output: {
-    path: path.resolve(__dirname, "public/js"),
+    path: path.resolve(__dirname, "dist/js"),
     publicPath: '/js/',
     filename: "[name].js"
   },
@@ -54,7 +54,7 @@ module.exports = [
     main: "./src/scss/entry.scss"
   },
   output: {
-    path: path.resolve(__dirname, "public/css"),
+    path: path.resolve(__dirname, "dist/css"),
     publicPath: '/css/',
     filename: "[name].css"
   },
