@@ -3,7 +3,7 @@ import myMathModule from './myMathModule';
 import { Person } from './Person.js';
 import '../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js';
 
-// HTMLファイルをコピーする
+// index.html ファイルをコピーする
 require('file-loader?name=../../dist/[name].[ext]!../index.html');
 
 $(() => {
