@@ -1,6 +1,6 @@
 export default {
   /**
-   * 掛ける2を行う関数
+   * 渡された数に2を掛ける関数
    * @param {Number} x
    * @returns {Number}
    */
