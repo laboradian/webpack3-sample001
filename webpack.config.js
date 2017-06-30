@@ -9,7 +9,7 @@ module.exports = [
      JS用モジュール
     ----------------- */
   entry: {
-    app: "./src/js/entry.js"
+    main: "./src/js/entry.js"
   },
   output: {
     path: path.resolve(__dirname, "public/js"),
@@ -51,7 +51,7 @@ module.exports = [
      CSS用モジュール
     ----------------- */
   entry: {
-    app: "./src/scss/entry.scss"
+    main: "./src/scss/entry.scss"
   },
   output: {
     path: path.resolve(__dirname, "public/css"),
