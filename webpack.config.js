@@ -10,7 +10,7 @@ module.exports = [
      （HTMLファイルのコピーもこの中で行っている）
     ----------------- */
   entry: {
-    main: "./src/js/entry.js"
+    main: "./src/js/main.js"
   },
   output: {
     path: path.resolve(__dirname, "dist/js"),
@@ -52,7 +52,7 @@ module.exports = [
      CSS用モジュール
     ----------------- */
   entry: {
-    main: "./src/scss/entry.scss"
+    main: "./src/scss/main.scss"
   },
   output: {
     path: path.resolve(__dirname, "dist/css"),
