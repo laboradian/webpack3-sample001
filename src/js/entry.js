@@ -1,6 +1,6 @@
 /* global $ */
 //import $ from 'jquery'; // 任意
-import fooCalculator from './fooCalculator';
+import myMathModule from './myMathModule';
 import { Person } from './Person.js';
 import '../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js';
 
@@ -11,10 +11,10 @@ $(() => {
   // ボタンのクリックイベントハンドラを登録する
   $('#btnSubmit').on('click', () => {
 
-    // fooCalculator を使う
+    // myMathModule を使う
     const i = parseInt($('#inputNumber').val());
     $('#output1')
-      .text(`2 * ${i} = ${fooCalculator.multiplyBy2(i)}`)
+      .text(`2 * ${i} = ${myMathModule.multiplyBy2(i)}`)
       .fadeIn('slow');
 
     // Personを使う
