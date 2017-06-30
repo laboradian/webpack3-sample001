@@ -7,7 +7,7 @@
     "build": "webpack -p --progress --colors || exit 0",
     "watch": "webpack -d --watch --colors || exit 0",
     "server": "browser-sync start --server dist --serverStatic dist --files dist/* || exit 0",
-    "test": "./node_modules/.bin/mocha --require babel-register test/entry.js || exit 0"
+    "test": "./node_modules/.bin/mocha --colors --require babel-register test/main.js || exit 0"
   },
   "author": "",
   "license": "ISC",
